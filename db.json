@@ -189,7 +189,7 @@
          "Role":"",
          "Attendee":"positive\\davramov",
          "allDay":false,
-         "IsRecurring":false,
+         "IsRecurring":true,
          "daysOfWeek":"",
          "color":"#1976d2",
          "rrule":{
