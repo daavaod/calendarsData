@@ -193,7 +193,7 @@
          "daysOfWeek":"",
          "color":"#1976d2",
          "rrule":{
-            "freq":"daily",
+            "freq": 0,
             "interval":1,
             "byweekday":[
                2,
