@@ -1,65 +1,65 @@
 {
    "telehealth":[
       {
-         "id": 10,
-         "title": "telehealth title",
-         "start": "2021-08-01T22:00:00",
-         "end": "2021-08-01T22:00:00",
-         "rrule": null,
-         "color": "#1976d2",
-         "category": "telehealth",
-          "ccm": {
-              "IsRecurring": false,
-              "EmailCaregiver": false,
-              "TextCaregiver": false,
-              "SendDriveTime": false,
-              "Location": null,
-              "Attendee": "positive\\davramov",
-              "ClientID": 0,
-              "Description": ""
-          }
+         "id":10,
+         "title":"telehealth title",
+         "start":"2021-08-01T22:00:00",
+         "end":"2021-08-01T22:00:00",
+         "rrule":null,
+         "color":"#1976d2",
+         "category":"telehealth",
+         "ccm":{
+            "IsRecurring":false,
+            "EmailCaregiver":false,
+            "TextCaregiver":false,
+            "SendDriveTime":false,
+            "Location":null,
+            "Attendee":"positive\\davramov",
+            "ClientID":0,
+            "Description":""
+         }
       }
    ],
    "inperson":[
       {
-         "id": 5,
-         "title": "inperson title",
-         "start": "2021-08-01T22:00:00",
-         "end": "2021-08-01T22:00:00",
-         "rrule": null,
-         "color": "#1976d2",
-         "category": "inperson",
-          "ccm": {
-              "IsRecurring": false,
-              "EmailCaregiver": false,
-              "TextCaregiver": false,
-              "SendDriveTime": false,
-              "Location": null,
-              "Attendee": "positive\\davramov",
-              "ClientID": 0,
-              "Description": ""
-          }
+         "id":5,
+         "title":"inperson title",
+         "start":"2021-08-01T22:00:00",
+         "end":"2021-08-01T22:00:00",
+         "rrule":null,
+         "color":"#1976d2",
+         "category":"inperson",
+         "ccm":{
+            "IsRecurring":false,
+            "EmailCaregiver":false,
+            "TextCaregiver":false,
+            "SendDriveTime":false,
+            "Location":null,
+            "Attendee":"positive\\davramov",
+            "ClientID":0,
+            "Description":""
+         }
       }
    ],
    "other":[
       {
-         "id": 6,
-         "title": "other title",
-         "start": "2021-08-01T22:00:00",
-         "end": "2021-08-01T22:00:00",
-         "rrule": null,
-         "color": "#1976d2",
-         "category": "other",
-          "ccm": {
-              "IsRecurring": false,
-              "EmailCaregiver": false,
-              "TextCaregiver": false,
-              "SendDriveTime": false,
-              "Location": null,
-              "Attendee": "positive\\davramov",
-              "ClientID": 0,
-              "Description": ""
-          }
+         "id":6,
+         "title":"other title",
+         "start":"2021-08-01T22:00:00",
+         "end":"2021-08-01T22:00:00",
+         "rrule":null,
+         "color":"#1976d2",
+         "category":"other",
+         "ccm":{
+            "IsRecurring":false,
+            "EmailCaregiver":false,
+            "TextCaregiver":false,
+            "SendDriveTime":false,
+            "Location":null,
+            "Attendee":"positive\\davramov",
+            "ClientID":0,
+            "Description":""
+         }
       }
    ]
 }
