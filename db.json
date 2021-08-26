@@ -80,7 +80,7 @@
          "color":"#1976d2",
          "category":"other",
          "ccm":{
-            "IsRecurring":false,
+            "IsRecurring":true,
             "EmailCaregiver":false,
             "TextCaregiver":false,
             "SendDriveTime":false,
