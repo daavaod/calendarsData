@@ -6,7 +6,7 @@
          "start": "2021-08-01T22:00:00",
          "end": "2021-08-01T22:00:00",
          "rrule": null,
-         "color": #1976d2,
+         "color": "#1976d2",
          "category": "telehealth",
           "ccm": {
               "IsRecurring": false,
@@ -27,7 +27,7 @@
          "start": "2021-08-01T22:00:00",
          "end": "2021-08-01T22:00:00",
          "rrule": null,
-         "color": '#1976d2',
+         "color": "#1976d2",
          "category": "inperson",
           "ccm": {
               "IsRecurring": false,
@@ -48,7 +48,7 @@
          "start": "2021-08-01T22:00:00",
          "end": "2021-08-01T22:00:00",
          "rrule": null,
-         "color": '#1976d2',
+         "color": "#1976d2",
          "category": "other",
           "ccm": {
               "IsRecurring": false,
