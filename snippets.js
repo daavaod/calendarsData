@@ -22,3 +22,20 @@ loopObject(obj) {
       });
       console.log('eventdetails after', this.eventDetails);
     }
+
+// remove duplicates
+const arr = [
+    {label: 'All', value: 'All'},
+    {label: 'All', value: 'All'},
+    {label: 'Alex', value: 'Ninja'},
+    {label: 'Bill', value: 'Op'},
+    {label: 'Cill', value: 'iopop'}
+]
+
+var result = arr.reduce((unique, o) => {
+    if(!unique.some(obj => obj.label === o.label && obj.value === o.value)) {
+      unique.push(o);
+    }
+    return unique;
+},[]);
+console.log(result);
