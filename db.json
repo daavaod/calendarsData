@@ -45,8 +45,8 @@
       {
          "id":6,
          "title":"other title",
-         "start":"Mon, 30 Aug 2021 07:00:00 GMT",
-         "end":"Mon, 30 Aug 2021 09:00:00 GMT",
+         "start":"Mon, 30 Aug 2021 07:00:00 UTC",
+         "end":"Mon, 30 Aug 2021 09:00:00 UTC",
          "rrule":null,
          "color":"#1976d2",
          "category":"other",
