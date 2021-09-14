@@ -202,7 +202,9 @@
                "freq":3,
                "interval":1,
                "dtstart":"2021-07-02T10:00:00",
-               "until":"2021-10-01T11:30:00"
+               "until":"2021-10-01T11:30:00",
+               "dtstartDate":"2021-07-02T10:00:00",
+               "untilDate":"2021-10-01T11:30:00"
             },
             "color":"#1976d2",
             "category":"other",
