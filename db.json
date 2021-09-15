@@ -73,6 +73,34 @@
           "ClientID":0,
           "Description":""
         }
+      },
+    {
+        "id":998,
+        "title":" once a month",
+        "start":"2021-07-01T10:00:00Z",
+        "end":"2021-12-01T11:30:00Z",
+        "rrule":{
+          "byweekday":null,
+          "freq":3,
+          "interval":1,
+          "dtstart":"2021-07-02T10:00:00Z",
+          "until":"2021-12-01T11:30:00Z"
+        },
+        "exdate":[
+            "2021-08-03T10:00:00Z"
+        ],
+        "color":"#1976d2",
+        "category":"other",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":null,
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":""
+        }
       }
     ]
   }
