@@ -81,7 +81,7 @@
         "end":"2021-12-01T11:30:00Z",
         "rrule":{
           "byweekday":null,
-          "freq":3,
+          "freq":1,
           "interval":1,
           "dtstart":"2021-07-02T10:00:00Z",
           "until":"2021-12-01T11:30:00Z"
