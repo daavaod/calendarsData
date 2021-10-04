@@ -16,7 +16,8 @@
         "Location":null,
         "Attendee":"positive\\stojiljkovic",
         "ClientID":0,
-        "Description":""
+        "Description":"",
+        "ClientFullName":"Sava Savanovic"
       }
     }
   ],
