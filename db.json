@@ -23,8 +23,8 @@
     {
         "id":999,
         "title":" 999 freq test",
-        "start":"2021-07-01T10:00:00Z",
-        "end":"2021-10-01T11:30:00Z",
+        "start":null,
+        "end":null,
         "rrule":{
           "byweekday":[
             1,
