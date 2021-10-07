@@ -69,7 +69,7 @@
         "EmailCaregiver":false,
         "TextCaregiver":false,
         "SendDriveTime":false,
-        "Location":null,
+        "Location":"Ni na Nebu ni na Zemlji",
         "Attendee":"positive\\davramov",
         "ClientID":0,
         "Description":"",
