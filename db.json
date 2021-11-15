@@ -1,176 +1,211 @@
 {
-  "telehealth":[
-    {
-      "id":10,
-      "title":"telehealth title",
-      "start":"2021-08-01T22:00:00Z",
-      "end":"2021-08-01T23:00:00Z",
-      "rrule":null,
-      "color":"#c62828",
-      "category":"telehealth",
-      "ccm":{
-        "IsRecurring":false,
-        "EmailCaregiver":false,
-        "TextCaregiver":false,
-        "SendDriveTime":false,
-        "Location":"Novi Sad",
-        "Attendee":"positive\\stojiljkovic",
-        "ClientID":0,
-        "Description":"",
-        "ClientFullName":"Sava Savanovic",
-        "UserFullName":"Sava Savanovic"
-      }
-    },
-    {
-      "id":999,
-      "title":" 999 freq test",
-      "start":null,
-      "end":null,
-      "rrule":{
-        "byweekday":[
-          1,
-          3,
-          4
+    "telehealth":[
+      {
+        "id":10,
+        "title":"telehealth title",
+        "start":"2021-08-01T22:00:00Z",
+        "end":"2021-08-01T23:00:00Z",
+        "rrule":null,
+        "color":"#c62828",
+        "category":"telehealth",
+        "ccm":{
+          "IsRecurring":false,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":"Novi Sad",
+          "Attendee":"positive\\stojiljkovic",
+          "ClientID":0,
+          "Description":"",
+          "ClientFullName":"Sava Savanovic",
+          "UserFullName":"Sava Savanovic"
+        }
+      },
+      {
+        "id":999,
+        "title":" 999 freq test",
+        "start":null,
+        "end":null,
+        "rrule":{
+          "byweekday":[
+            1,
+            3,
+            4
+          ],
+          "freq":3,
+          "interval":1,
+          "dtstart":"2021-07-02T10:00:00Z",
+          "until":"2021-10-01T11:30:00Z"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00Z"
         ],
-        "freq":3,
-        "interval":1,
-        "dtstart":"2021-07-02T10:00:00Z",
-        "until":"2021-10-01T11:30:00Z"
+        "color":"#c62828",
+        "category":"telehealth",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":"New Becey City",
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":"",
+          "UserFullName":"Aca Groznica"
+        }
       },
-      "exdate":[
-        "2021-08-03T10:00:00Z"
-      ],
-      "color":"#c62828",
-      "category":"telehealth",
-      "ccm":{
-        "IsRecurring":true,
-        "EmailCaregiver":false,
-        "TextCaregiver":false,
-        "SendDriveTime":false,
-        "Location":"New Becey City",
-        "Attendee":"positive\\davramov",
-        "ClientID":0,
-        "Description":"",
-        "UserFullName":"Aca Groznica"
-      }
-    },
-    {
-      "id":9998,
-      "title":"EST timezone test",
-      "start":null,
-      "end":null,
-      "rrule":{
-        "byweekday":[
-          1,
-          2,
-          3,
-          4
+      {
+        "id":9998,
+        "title":"EST timezone test",
+        "start":null,
+        "end":null,
+        "rrule":{
+          "byweekday":[
+            1,
+            2,
+            3,
+            4
+          ],
+          "freq":3,
+          "interval":1,
+          "dtstart":"2021-10-20T16:00-05:00",
+          "until":"2021-11-15T17:00-05:00"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00Z"
         ],
-        "freq":3,
-        "interval":1,
-        "dtstart":"2021-10-20T16:00-05:00",
-        "until":"2021-11-15T17:00-05:00"
+        "color":"#c62828",
+        "category":"telehealth",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":"New Becey City",
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":"",
+          "UserFullName":"Aca Groznica"
+        }
       },
-      "exdate":[
-        "2021-08-03T10:00:00Z"
-      ],
-      "color":"#c62828",
-      "category":"telehealth",
-      "ccm":{
-        "IsRecurring":true,
-        "EmailCaregiver":false,
-        "TextCaregiver":false,
-        "SendDriveTime":false,
-        "Location":"New Becey City",
-        "Attendee":"positive\\davramov",
-        "ClientID":0,
-        "Description":"",
-        "UserFullName":"Aca Groznica"
-      }
-    }
-  ],
-  "inperson":[
-    {
-      "id":5,
-      "title":"inperson title",
-      "start":"2021-08-03T20:00:00Z",
-      "end":"2021-08-03T21:00:00Z",
-      "rrule":null,
-      "color":"#f44336",
-      "category":"inperson",
-      "ccm":{
-        "IsRecurring":false,
-        "EmailCaregiver":false,
-        "TextCaregiver":false,
-        "SendDriveTime":false,
-        "Location":"Ni na Nebu ni na Zemlji",
-        "Attendee":"positive\\davramov",
-        "ClientID":0,
-        "Description":"",
-        "UserFullName":"Aca Groznica"
-      }
-    }
-  ],
-  "other":[
-    {
-      "id":999,
-      "title":" 999 freq test",
-      "start":"2021-07-01T10:00:00Z",
-      "end":"2021-10-01T11:30:00Z",
-      "rrule":{
-        "byweekday":[
-          1,
-          3,
-          4
+      {
+        "id":9996,
+        "title":"EST Z timezone test",
+        "start":null,
+        "end":null,
+        "rrule":{
+          "byweekday":[
+            1,
+            2,
+            3,
+            4
+          ],
+          "freq":3,
+          "interval":1,
+          "dtstart":"2021-10-20T16:00:00Z",
+          "until":"2021-11-15T17:00:00Z"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00Z"
         ],
-        "freq":3,
-        "interval":1,
-        "dtstart":"2021-07-02T10:00:00Z",
-        "until":"2021-10-01T11:30:00Z"
-      },
-      "exdate":[
-        "2021-08-03T10:00:00Z"
-      ],
-      "color":"#1976d2",
-      "category":"other",
-      "ccm":{
-        "IsRecurring":true,
-        "EmailCaregiver":false,
-        "TextCaregiver":false,
-        "SendDriveTime":false,
-        "Location":null,
-        "Attendee":"positive\\davramov",
-        "ClientID":0,
-        "Description":""
+        "color":"#c62828",
+        "category":"telehealth",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":"New Becey City",
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":"",
+          "UserFullName":"Aca Groznica"
+        }
       }
-    },
-    {
-      "id":998,
-      "title":" once a month",
-      "start":"2021-07-01T10:00:00Z",
-      "end":"2021-12-01T11:30:00Z",
-      "rrule":{
-        "byweekday":null,
-        "freq":1,
-        "interval":1,
-        "dtstart":"2021-07-02T10:00:00Z",
-        "until":"2021-12-01T11:30:00Z"
-      },
-      "exdate":[
-        "2021-08-03T10:00:00Z"
-      ],
-      "color":"#1976d2",
-      "category":"other",
-      "ccm":{
-        "IsRecurring":true,
-        "EmailCaregiver":false,
-        "TextCaregiver":false,
-        "SendDriveTime":false,
-        "Location":null,
-        "Attendee":"positive\\davramov",
-        "ClientID":0,
-        "Description":""
+    ],
+    "inperson":[
+      {
+        "id":5,
+        "title":"inperson title",
+        "start":"2021-08-03T20:00:00Z",
+        "end":"2021-08-03T21:00:00Z",
+        "rrule":null,
+        "color":"#f44336",
+        "category":"inperson",
+        "ccm":{
+          "IsRecurring":false,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":"Ni na Nebu ni na Zemlji",
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":"",
+          "UserFullName":"Aca Groznica"
+        }
       }
-    }
-  ]
-}
+    ],
+    "other":[
+      {
+        "id":999,
+        "title":" 999 freq test",
+        "start":"2021-07-01T10:00:00Z",
+        "end":"2021-10-01T11:30:00Z",
+        "rrule":{
+          "byweekday":[
+            1,
+            3,
+            4
+          ],
+          "freq":3,
+          "interval":1,
+          "dtstart":"2021-07-02T10:00:00Z",
+          "until":"2021-10-01T11:30:00Z"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00Z"
+        ],
+        "color":"#1976d2",
+        "category":"other",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":null,
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":""
+        }
+      },
+      {
+        "id":998,
+        "title":" once a month",
+        "start":"2021-07-01T10:00:00Z",
+        "end":"2021-12-01T11:30:00Z",
+        "rrule":{
+          "byweekday":null,
+          "freq":1,
+          "interval":1,
+          "dtstart":"2021-07-02T10:00:00Z",
+          "until":"2021-12-01T11:30:00Z"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00Z"
+        ],
+        "color":"#1976d2",
+        "category":"other",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":null,
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":""
+        }
+      }
+    ]
+  }
+  
