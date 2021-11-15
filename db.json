@@ -53,6 +53,39 @@
         "Description":"",
         "UserFullName":"Aca Groznica"
       }
+    },
+    {
+      "id":9998,
+      "title":"EST timezone test",
+      "start":null,
+      "end":null,
+      "rrule":{
+        "byweekday":[
+          1,
+          3,
+          4
+        ],
+        "freq":3,
+        "interval":1,
+        "dtstart":"2021-10-20T10:00-04:00",
+        "until":"2021-11-15T11:30-04:00"
+      },
+      "exdate":[
+        "2021-08-03T10:00:00Z"
+      ],
+      "color":"#c62828",
+      "category":"telehealth",
+      "ccm":{
+        "IsRecurring":true,
+        "EmailCaregiver":false,
+        "TextCaregiver":false,
+        "SendDriveTime":false,
+        "Location":"New Becey City",
+        "Attendee":"positive\\davramov",
+        "ClientID":0,
+        "Description":"",
+        "UserFullName":"Aca Groznica"
+      }
     }
   ],
   "inperson":[
