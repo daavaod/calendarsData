@@ -180,7 +180,7 @@
       },
       {
         "id":999789,
-        "title":"INPERSON TEST TIMEZONE",
+        "title":"with offset",
         "start":"2021-07-01T10:00:00Z",
         "end":"2021-10-01T11:30:00Z",
         "rrule":{
@@ -190,8 +190,8 @@
           ],
           "freq":2,
           "interval":1,
-          "dtstart":"2021-11-15T02:30:00Z",
-          "until":"2021-11-29T04:30:00Z"
+          "dtstart":"2021-11-15T02:30:00-08:00",
+          "until":"2021-11-29T04:30:00-08:00"
         },
         "exdate":[
           "2021-08-03T10:00:00Z"
@@ -211,7 +211,7 @@
       },
       {
         "id":199789,
-        "title":"With tzid",
+        "title":"With tzid utc",
         "start":"2021-07-01T10:00:00Z",
         "end":"2021-10-01T11:30:00Z",
         "rrule":{
@@ -222,8 +222,8 @@
           "tzid": "America/Los_Angeles",
           "freq":2,
           "interval":1,
-          "dtstart":"Mon Nov 15 2021 18:30:00 GMT-0800 (Pacific Standard Time)",
-          "until":"Mon Nov 15 2021 20:30:00 GMT-0800 (Pacific Standard Time)"
+          "dtstart":"2021-11-15T02:30:00Z",
+          "until":"2021-11-15T04:30:00Z"
         },
         "exdate":[
           "2021-08-03T10:00:00Z"
@@ -243,7 +243,7 @@
       },
       {
         "id":299789,
-        "title":"UTC",
+        "title":"UTC no tzid",
         "start":"2021-07-01T10:00:00Z",
         "end":"2021-10-01T11:30:00Z",
         "rrule":{
@@ -251,7 +251,7 @@
             0,
             3
           ],
-          "freq":3,
+          "freq":2,
           "interval":1,
           "dtstart":"2021-11-15T02:30:00Z",
           "until":"2021-11-29T04:30:00Z"
