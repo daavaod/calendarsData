@@ -218,7 +218,7 @@
         "rrule":{
           "byweekday":[
             "mo",
-            "thu"
+            "th"
           ],
           "freq":2,
           "interval":1,
