@@ -160,9 +160,9 @@
     "inperson":[
       {
         "id":5,
-        "title":"inperson title",
-        "start":"2021-08-03T20:00:00Z",
-        "end":"2021-08-03T21:00:00Z",
+        "title":"single event",
+        "start":"2021-11-15T02:30:00Z",
+        "end":"2021-11-15T04:30:00Z",
         "rrule":null,
         "color":"#f44336",
         "category":"inperson",
