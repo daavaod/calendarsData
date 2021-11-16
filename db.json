@@ -220,6 +220,7 @@
             "mo",
             "th"
           ],
+          "tzid":"America/Los_Angeles",
           "freq":2,
           "interval":1,
           "dtstart":"2021-11-23T02:30:00Z",
