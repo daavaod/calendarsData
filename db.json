@@ -100,7 +100,7 @@
             3,
             4
           ],
-          "freq":3,
+          "freq":2,
           "interval":1,
           "dtstart":"2021-10-20T16:00:00Z",
           "until":"2021-11-15T17:00:00Z"
@@ -134,7 +134,7 @@
             3,
             4
           ],
-          "freq":3,
+          "freq":2,
           "interval":1,
           "dtstart":"2021-10-20T16:00",
           "until":"2021-11-15T17:00"
@@ -188,7 +188,7 @@
             0,
             3
           ],
-          "freq":3,
+          "freq":2,
           "interval":1,
           "dtstart":"2021-11-15T02:30:00Z",
           "until":"2021-11-29T04:30:00Z"
@@ -220,7 +220,7 @@
             3
           ],
           "tzid": "America/Los_Angeles",
-          "freq":3,
+          "freq":2,
           "interval":1,
           "dtstart":"2021-11-15T02:30:00Z",
           "until":"2021-11-29T04:30:00Z"
