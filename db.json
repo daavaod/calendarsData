@@ -208,6 +208,37 @@
           "ClientID":0,
           "Description":""
         }
+      },
+      {
+        "id":199789,
+        "title":"With OFFSET",
+        "start":"2021-07-01T10:00:00Z",
+        "end":"2021-10-01T11:30:00Z",
+        "rrule":{
+          "byweekday":[
+            0,
+            3
+          ],
+          "freq":3,
+          "interval":1,
+          "dtstart":"2021-11-15T02:30:00+08:00",
+          "until":"2021-11-29T04:30:00+08:00"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00Z"
+        ],
+        "color":"#f44336",
+        "category":"inperson",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":null,
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":""
+        }
       }
     ],
     "other":[
