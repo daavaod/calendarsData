@@ -211,6 +211,37 @@
         }
       },
       {
+        "id":11133,
+        "title":"local event",
+        "start":"2021-07-01T10:00:00Z",
+        "end":"2021-10-01T11:30:00Z",
+        "rrule":{
+          "byweekday":[
+            0,
+            3
+          ],
+          "freq":2,
+          "interval":1,
+          "dtstart":"2021-11-16T18:30:00",
+          "until":"2021-11-30T20:30:00"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00"
+        ],
+        "color":"#f44336",
+        "category":"inperson",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":null,
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":""
+        }
+      },
+      {
         "id":199789,
         "title":"23-30",
         "start":"2021-07-01T10:00:00Z",
