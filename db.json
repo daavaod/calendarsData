@@ -222,8 +222,8 @@
           "tzid": "America/Los_Angeles",
           "freq":2,
           "interval":1,
-          "dtstart":"2021-11-15T02:30:00Z",
-          "until":"2021-11-29T04:30:00Z"
+          "dtstart":"Mon Nov 15 2021 10:30:00 GMT-0800 (Pacific Standard Time)",
+          "until":"Mon Nov 15 2021 10:30:00 GMT-0800 (Pacific Standard Time)"
         },
         "exdate":[
           "2021-08-03T10:00:00Z"
