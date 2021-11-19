@@ -212,7 +212,7 @@
       },
       {
         "id":11133,
-        "title":"local event",
+        "title":"no days shift",
         "start":"2021-07-01T10:00:00Z",
         "end":"2021-10-01T11:30:00Z",
         "rrule":{
@@ -222,8 +222,8 @@
           ],
           "freq":2,
           "interval":1,
-          "dtstart":"2021-11-22T18:30:00",
-          "until":"2021-11-29T20:30:00"
+          "dtstart":"2021-11-23T02:30:00Z",
+          "until":"2021-11-30T04:30:00Z"
         },
         "exdate":[
           "2021-08-03T10:00:00"
@@ -243,15 +243,14 @@
       },
       {
         "id":199789,
-        "title":"23-30",
+        "title":"days shifted",
         "start":"2021-07-01T10:00:00Z",
         "end":"2021-10-01T11:30:00Z",
         "rrule":{
           "byweekday":[
-            "mo",
-            "th"
+            1,
+            4
           ],
-          "tzid":"America/Los_Angeles",
           "freq":2,
           "interval":1,
           "dtstart":"2021-11-23T02:30:00Z",
