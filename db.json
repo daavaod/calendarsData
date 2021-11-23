@@ -338,6 +338,37 @@
         }
       },
       {
+        "id":111336969,
+        "title":"SHIFT ACCORDINGLY",
+        "start":"2021-07-01T10:00:00Z",
+        "end":"2021-10-01T11:30:00Z",
+        "rrule":{
+          "byweekday":[
+            1,
+            4
+          ],
+          "freq":2,
+          "interval":1,
+          "dtstart":"2021-11-23T02:30:00Z",
+          "until":"2021-11-30T04:30:00Z"
+        },
+        "exdate":[
+          "2021-08-03T10:00:00"
+        ],
+        "color":"#f44336",
+        "category":"inperson",
+        "ccm":{
+          "IsRecurring":true,
+          "EmailCaregiver":false,
+          "TextCaregiver":false,
+          "SendDriveTime":false,
+          "Location":null,
+          "Attendee":"positive\\davramov",
+          "ClientID":0,
+          "Description":""
+        }
+      },
+      {
         "id":998,
         "title":" once a month",
         "start":"2021-07-01T10:00:00Z",
