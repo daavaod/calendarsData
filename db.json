@@ -313,8 +313,8 @@
         "end":"2021-10-01T11:30:00Z",
         "rrule":{
           "byweekday":[
-            1,
-            4
+            0,
+            3
           ],
           "freq":2,
           "interval":1,
