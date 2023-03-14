@@ -384,26 +384,6 @@
           "ClientID":0,
           "Description":""
         }
-      },
-      {
-        "id":556,
-        "title":"single event",
-        "start":"2021-11-16T02:30:00Z",
-        "end":"2021-11-16T04:30:00Z",
-        "rrule":null,
-        "color":"#1976d2",
-        "category":"other",
-        "ccm":{
-          "IsRecurring":false,
-          "EmailCaregiver":false,
-          "TextCaregiver":false,
-          "SendDriveTime":false,
-          "Location":"Ni na Nebu ni na Zemlji",
-          "Attendee":"positive\\davramov",
-          "ClientID":0,
-          "Description":"",
-          "UserFullName":"Aca Groznica"
-        }
       }
     ]
   }
