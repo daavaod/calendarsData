@@ -384,7 +384,8 @@
           "ClientID":0,
           "Description":""
         }
-      }
+      },
+        {"id":20760,"title":"DST","start":null,"end":null,"rrule":{"freq":3,"interval":1,"byweekday":null,"dtstart":"2024-03-01T15:00:00Z","until":"2024-04-07T16:00:00Z"},"color":"#1976d2","category":"other","allDay":false,"exdate":null,"ccm":{"IsRecurring":true,"EmailCaregiver":false,"TextCaregiver":false,"SendDriveTime":false,"Location":null,"Attendee":"positive\\davramov","ClientID":0,"Description":"","UTCDiff":0,"UserFullName":null,"ClientFullName":null,"AbsenceType":null,"CustomMessage":null,"TotalHours":0,"Billed":false,"AllDay":false,"MeetingLink":null,"Mandatory":false,"IsRegistered":false,"ContactPerson":null,"StreetAddress":null,"City":null,"State":null,"Zip":null,"TrainingCategory":null,"TrainerOrHostId":0,"TrainerOrHostName":null,"TrainerOrHostLogin":null,"Ticket":null}}
     ]
   }
   
